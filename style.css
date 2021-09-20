@@ -5,3 +5,166 @@
           box-sizing: border-box;
   font-family: "Poppins";
 }
+
+.landing-section {
+  height: 100vh;
+  width: auto;
+  background-image: url("../Media/colorful-holographic-gradient-background-design-vector.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.landing-section .glass-container {
+  background: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 85vh;
+  width: 90vw;
+  z-index: 3;
+  position: relative;
+  overflow: hidden;
+}
+.landing-section .glass-container .bar {
+  margin: auto;
+  margin-top: 1.5rem;
+  width: 80vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.landing-section .glass-container .bar .humburger {
+  height: 3px;
+  width: 25px;
+  background-color: white;
+  margin-bottom: 0.25rem;
+}
+.landing-section .glass-container .bar .title {
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+.landing-section .glass-container .bar .title span {
+  color: #D950D0;
+}
+.landing-section .blob {
+  position: absolute;
+  height: 100px;
+  width: auto;
+  right: -200px;
+  top: -150px;
+}
+
+main {
+  margin-left: 6rem;
+  margin-top: 4rem;
+}
+main .header-title {
+  font-weight: 600;
+  line-height: 3rem;
+}
+main .sub-title {
+  font-weight: 300;
+  color: #737373;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+main .intro {
+  margin-top: 1rem;
+  font-weight: 300;
+  color: #737373;
+}
+main .btns {
+  margin-top: 1.5rem;
+}
+main .btns .btn {
+  padding: 0.4rem 1.5rem;
+  margin-right: 1rem;
+}
+main .btns .btn-prim {
+  background-image: -webkit-gradient(linear, left top, right top, from(#BBEEED), to(#FDF2D6));
+  background-image: linear-gradient(90deg, #BBEEED, #FDF2D6);
+  border-radius: 20px;
+}
+main .btns .btn-sec {
+  border: 2px solid #B19FD5;
+  border-radius: 20px;
+}
+
+.side-content {
+  margin-top: 0;
+}
+.side-content .glass-card {
+  background: rgba(255, 255, 255, 0.329);
+  border: 1px white;
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 23rem;
+  width: 18rem;
+  -webkit-transform: rotate(17deg);
+          transform: rotate(17deg);
+  position: absolute;
+  top: 70px;
+  border-radius: 35px;
+  z-index: 5;
+  right: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.side-content .glass-card .card-title {
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 11rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.side-content .glass-card .card-title span {
+  font-weight: normal;
+}
+.side-content .glass-card .card-number {
+  color: white;
+  margin: 0 auto 0.5rem auto;
+}
+.side-content .glass-card .card-owner {
+  color: white;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+.side-content .glass-card .card-date {
+  color: white;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+.side-content .blob-2 {
+  z-index: 4;
+  position: absolute;
+  top: 50px;
+  right: -200px;
+}

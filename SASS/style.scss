@@ -75,6 +75,7 @@ main{
     .header-title{
         font-weight: 600;
         line-height: 3rem;
+        visibility: hidden;
     }
 
     .sub-title{
@@ -82,17 +83,23 @@ main{
         color: $secondary_color;
         font-size: 1.3rem;
         line-height: 2rem;
+        visibility: hidden;
+
     }
 
     .intro{
         margin-top: 1rem;
         font-weight: 300;
         color: $secondary_color;
+        visibility: hidden;
+
 
     }
 
     .btns{
         margin-top: 1.5rem;
+        visibility: hidden;
+
         .btn{
             padding: .4rem 1.5rem;
             margin-right: 1rem;
@@ -129,6 +136,7 @@ main{
         border-radius: 35px;
         z-index: 5;
         right: 150px;
+        visibility: hidden;
 
         display: flex;
         flex-direction: column;

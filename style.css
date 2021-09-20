@@ -80,20 +80,24 @@ main {
 main .header-title {
   font-weight: 600;
   line-height: 3rem;
+  visibility: hidden;
 }
 main .sub-title {
   font-weight: 300;
   color: #737373;
   font-size: 1.3rem;
   line-height: 2rem;
+  visibility: hidden;
 }
 main .intro {
   margin-top: 1rem;
   font-weight: 300;
   color: #737373;
+  visibility: hidden;
 }
 main .btns {
   margin-top: 1.5rem;
+  visibility: hidden;
 }
 main .btns .btn {
   padding: 0.4rem 1.5rem;
@@ -128,6 +132,7 @@ main .btns .btn-sec {
   border-radius: 35px;
   z-index: 5;
   right: 150px;
+  visibility: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

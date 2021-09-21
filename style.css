@@ -173,3 +173,8 @@ main .btns .btn-sec {
   top: 50px;
   right: -200px;
 }
+
+section {
+  height: 100vh;
+  background-color: #B19FD5;
+}
